@@ -14,7 +14,7 @@ Login to nd
 
 Select service type
     [Arguments]  ${ServiceText}
-    sleep    7
+    sleep    8
     click link    ${slaOla_Link}
     #click button    ${slaOlaSetting_frm}
     click element    ${serviseLevel_drb}
