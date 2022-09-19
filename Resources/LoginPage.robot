@@ -14,7 +14,11 @@ Login to nd
 
 Select service type
     [Arguments]  ${ServiceText}
+<<<<<<< HEAD
     sleep    5
+=======
+    sleep    6
+>>>>>>> 4b54650 (Initial commit)
     click link    ${slaOla_Link}
     #click button    ${slaOlaSetting_frm}
     click element    ${serviseLevel_drb}
